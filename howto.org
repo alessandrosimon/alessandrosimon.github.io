@@ -1,0 +1,9 @@
+# How to update site
+
+- make changes
+- run `docker-compose up`
+- run `docker-compose exec jekyll bash`
+- run `bundle exec jekyll build` inside docker shell
+- run `rsync -av src/ dst`
+  
+    
